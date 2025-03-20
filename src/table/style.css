@@ -1,0 +1,27 @@
+.row{
+    display: flex;
+    justify-content: center;
+
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table tr:hover{
+    background-color: gray;
+    color: white;
+    transition: 100ms all ease-in;
+}
+table th,td{
+    font-size: 7px;
+}
+@media screen and (min-width:468px) {
+    table th,td{
+        font-size: 10px;
+    }
+}
+@media screen and (min-width:786px) {
+    table th,td{
+        font-size: 1rem;
+    }
+}
